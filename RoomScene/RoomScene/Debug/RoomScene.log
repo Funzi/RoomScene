@@ -1,0 +1,24 @@
+﻿Build started 26-May-16 20:57:38.
+     1>Project "C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\RoomScene\RoomScene.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../libs /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Graphics.cpp
+         Graphics.cpp
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\graphics.cpp(1030): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\graphics.cpp(1031): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\graphics.cpp(1049): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\graphics.cpp(1050): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\main.cpp(691): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\main.cpp(702): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\david\desktop\openglcvicenia\room\roomscene\roomscene\main.cpp(706): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\Debug\RoomScene.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../libs kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\Debug\RoomScene.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\Debug\RoomScene.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Graphics.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         RoomScene.vcxproj -> C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\Debug\RoomScene.exe
+     1>Done Building Project "C:\Users\david\Desktop\OpenGLCvicenia\Room\RoomScene\RoomScene\RoomScene.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.68
